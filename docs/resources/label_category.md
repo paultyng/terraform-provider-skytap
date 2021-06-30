@@ -18,7 +18,7 @@ Provides a Skytap label category resource. Label categories provide a taxonomy o
 
 ```hcl
 # Create a new label_category
-resource "label_category" "env" {
+resource "skytap_label_category" "env" {
   name = "environment"
   single_value = true
 }
